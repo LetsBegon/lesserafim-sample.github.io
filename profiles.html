@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+        .nav{
+            display: inline-flex;
+        }
+        .logo{
+            margin-top: 55px;
+            margin-left: 50px;
+            
+        }
+        .nav-sec{
+            display: inline-flex;
+            margin-top: 82px;
+            margin-left: 600px;
+        }
+        .nav-sec li a{
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            margin-left: 27px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 900;
+            font-size: 22px;
+        }
+        .profiles{
+            margin-top: 80px;
+            
+        }
+        .group img{
+            height: 400px;
+            width: 700px;
+        }
+        .group{
+            margin-left: 30px;
+            margin-right: 0;
+        }
+        .group h2{
+            margin-left: 280px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 700;
+        }
+        .info-group{
+            float: right;
+            font-size: 20px;
+            font-family: "Kanit", sans-serif;
+            font-weight: 500;
+            margin-right: 450px;
+        }
+        .chaewon img{
+            height: 400px;
+            width: 700px;
+        }
+        .chaewon{
+            margin-left: 30px;
+            margin-right: 0;
+            margin-top: 30px;
+        }
+        .chaewon h2{
+            margin-left: 260px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 700;
+        }
+        .info-chaewon{
+            float: right;
+            font-size: 20px;
+            font-family: "Kanit", sans-serif;
+            font-weight: 500;
+            margin-right: 365px;
+        }
+
+        .yunjin img{
+            height: 400px;
+            width: 700px;
+        }
+        .yunjin{
+            margin-left: 30px;
+            margin-right: 0;
+            margin-top: 30px;
+        }
+        .yunjin h2{
+            margin-left: 280px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 700;
+        }
+        .info-yunjin{
+            float: right;
+            font-size: 20px;
+            font-family: "Kanit", sans-serif;
+            font-weight: 500;
+            margin-right: 390px;
+        }
+        .sakura img{
+            height: 400px;
+            width: 700px;
+        }
+        .sakura{
+            margin-left: 30px;
+            margin-right: 0;
+            margin-top: 30px;
+        }
+        .sakura h2{
+            margin-left: 300px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 700;
+        }
+        .info-sakura{
+            float: right;
+            font-size: 20px;
+            font-family: "Kanit", sans-serif;
+            font-weight: 500;
+            margin-right: 380px;
+        }
+        .kazuha img{
+            height: 400px;
+            width: 700px;
+        }
+        .kazuha{
+            margin-left: 30px;
+            margin-right: 0;
+            margin-top: 30px;
+        }
+        .kazuha h2{
+            margin-left: 300px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 700;
+        }
+        .info-kazuha{
+            float: right;
+            font-size: 20px;
+            font-family: "Kanit", sans-serif;
+            font-weight: 500;
+            margin-right: 372px;
+        }
+        .eunchae img{
+            height: 400px;
+            width: 700px;
+        }
+        .eunchae{
+            margin-left: 30px;
+            margin-right: 0;
+            margin-top: 40px;
+        }
+        .eunchae h2{
+            margin-left: 250px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 700;
+        }
+        .info-eunchae{
+            float: right;
+            font-size: 20px;
+            font-family: "Kanit", sans-serif;
+            font-weight: 500;
+            margin-right: 360px;
+        }
+        .footer{
+            margin-top: 100px;
+            margin-left: 10px;
+            padding-bottom: 30px;
+        }
+        .footer img{
+            margin-left: 30px;
+        }
+    </style>
+    <title>Document</title>
+
+</head>
+<body>
+    <div class="nav">
+        <div class="logo"><img src="images/nav-logo-black.png" alt="Le sserafim official logo" height="100px" width="210px"></div>
+        <div class="nav-sec">
+            <li><a href="profiles.html">PROFILES</a></li>
+            <li><a href="discography.html">DISCOGRAPHY</a></li>
+            <li><a href="video_page.html">VIDEO</a></li>
+            <li><a href="">GALLERY</a></li>
+            <li><a href="">ABOUT</a></li>
+        </div>
+    </div>
+    <div class="profiles">
+            <div class="group">
+                <h2>LE SSERAFIM</h2>
+                <img src="Easy/Group/Group-4.jpg" alt="" height="" width="700px">
+                <div class="info-group">
+                <p>LE SSERAFIM Official Accounts:</p>
+                <p>Website: le-sserafim.com</p>
+                <p>Japan Website: le-sserafim.jp</p>
+                <p>Instagram: le_sserafim</p>
+                <p>YouTube: LE SSERAFIM</p>
+                <p>Twitter: IM_LESSERAFIM</p>
+                <p>Staff Twitter: @le_sserafim  </p>
+                <p>Japan Twitter: @le_sserafim_jp</p>
+                <p>TikTok: @le_sserafim</p>
+                <p>SoundCloud: le_sserafim_official</p>
+                <p>Weverse: LE SSERAFIM</p>
+                    
+            </div>
+            </div>
+   
+                <div class="chaewon">
+                <h2>KIM CHAEWON</h2>
+                <img src="Easy/Kim Chaewon/Chaewon-10.jpg" alt="" height="" width="700px">
+                <div class="info-chaewon">
+                <p>Stage / Birth Name: Kim Chaewon (김채원)</p>
+                <p>English Name: Anna Kim</p>
+                <p>Position: Leader, Vocalist, Dancer</p>
+                <p>Birthday: August 1st, 2000</p>
+                <p>Zodiac Sign: Leo</p>
+                <p>Height: 164 cm (5’5″)</p>
+                <p>Weight: 42 kg (92 lbs)</p>
+                <p>Blood Type: B</p>
+                <p>MBTI Type: ISTP</p>
+                <p>Nationality: Korean</p>
+                <p>Representative Gemstone: Diamond</p>
+                <p>Representative Color: Silver</p>
+                <p>Instagram: @_chaechae_1</p>
+                
+        </div>
+        </div>
+                <div class="yunjin"> 
+                <h2>HUH YUNJIN</h2>
+                <img src="Easy/Huh Yunjin/Yunjin-4.jpg" alt="" height="" width="700px">
+                <div class="info-yunjin">
+                <p>Stage / Birth Name: Huh Yunjin (허윤진)</p>
+                <p>English Name: Jennifer Huh</p>
+                <p>Position: Vocalist, Rapper</p>
+                <p>Birthday: October 8th, 2001</p>
+                <p>Zodiac Sign: Libra</p>
+                <p>Height: 172 cm (5’7.5″)</p>
+                <p>Weight: 53 kg (116 lbs)</p>
+                <p>Blood Type: B</p>
+                <p>MBTI Type: ENFJ </p>
+                <p>Nationality: Korean-American</p>
+                <p>Representative Gemstone: Emerald</p>
+                <p>Representative Color: Green</p>
+                <p>Instagram: @jenaissante</p>
+                    
+            </div>
+            </div>
+                <div class="sakura"> 
+                <h2>SAKURA</h2>
+                <img src="Easy/Sakura/Sakura-4.jpg" alt="" height="" width="700px">
+                <div class="info-sakura">
+                <p>Stage Name: Sakura (사쿠라)</p>
+                <p>Birth Name: Miyawaki Sakura (宮脇 咲良)</p>
+                <p>Korean Name: Kim Yoonah (김윤아)</p>
+                <p>Position: Vocalist, Rapper, Dancer</p>
+                <p>Birthday: March 19th, 1998</p>
+                <p>Zodiac Sign: Pisces</p>
+                <p>Height: 163 cm (5’4”)</p>
+                <p>Weight: 42 kg (92 lbs)</p>
+                <p>Blood Type: A</p>
+                <p>MBTI Type: INTP</p>
+                <p>Nationality: Japanese</p>
+                <p>Representative Gemstone: Pink Diamond</p>
+                <p>Representative Color: Pink</p>
+                <p>Instagram: @39saku_chan</p>
+                    
+            </div>
+            </div>
+                <div class="kazuha"> 
+                <h2>KAZUHA</h2>
+                <img src="Easy/Kazuha/Kazuha-7.jpg" alt="" height="" width="700px">
+                <div class="info-kazuha">
+                <p>Stage Name: Kazuha (카즈하)</p>
+                <p>Birth Name: Nakamura Kazuha (中村 一葉)</p>
+                <p>Korean Name: Kang Juha (강주하)</p>
+                <p>Position: Sub-Vocalist, Rapper, Dancer</p>
+                <p>Birthday: August 9th, 2003</p>
+                <p>Zodiac Sign: Leo</p>
+                <p>Height: 170 cm (5’7”)</p>
+                <p>Weight: —</p>
+                <p>Blood Type: —</p>
+                <p>MBTI Type: INFP</p>
+                <p>Nationality: Japanese</p>
+                <p>Representative Gemstone: Sapphire</p>
+                <p>Representative Color: Blue</p>
+                <p>Instagram: @zuhazana</p>
+                    
+            </div>
+            </div>
+                <div class="eunchae"> 
+                <h2>HONG EUNCHAE</h2>
+                <img src="Easy/Hong Eunchae/Eunchae-11.jpg" alt="" height="" width="700px">
+                <div class="info-eunchae">
+                <p>Stage / Birth Name: Hong Eunchae (홍은채)</p>
+                <p>English Name: Eve Hong</p>
+                <p>Position: Vocalist, Lead Dancer, Maknae</p>
+                <p>Birthday: November 10th, 2006</p>
+                <p>Zodiac Sign: Scorpio</p>
+                <p>Height: 169 cm (5’6.5″)</p>
+                <p>Weight: —</p>
+                <p>Blood Type: —</p>
+                <p>MBTI Type: ISFJ</p>
+                <p>Nationality: Korean</p>
+                <p>Representative Gemstone: Ruby</p>
+                <p>Representative Color: Red</p>
+                <p>Instagram: @hhh.e_c.v</p>
+                    
+            </div>
+    </div>
+    <div class="footer">
+        <img src="images/sns_facebook_b.png" alt="" height="30px" width="30px"> 
+        <img src="images/sns_instagram_b.png" alt="" height="30px" width="30px"> 
+        <img src="images/sns_tiktok_b.png" alt="" height="30px" width="30px"> 
+        <img src="images/sns_twitter_b.png" alt="" height="30px" width="30px"> 
+        <img src="images/sns_youtube_b.png" alt="" height="30px" width="30px"> 
+    </div>
+</div>
+</body>
+</html>
